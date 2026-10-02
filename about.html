@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Megep Company Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/logo.jpg">
+    <meta name="theme-color" content="#07152b">
+    <meta name="description" content="Megep Company Ltd — premium traveling boxes from Megep Trading, plus customization from Megep Prints. Call 08028385955 or 08055554744.">
+</head>
+<body>
+    <div class="topbar">
+        <div class="wrap">
+            <span>Call 08028385955 or 08055554744</span>
+            <a href="mailto:2gep.bd@gmail.com">2gep.bd@gmail.com</a>
+        </div>
+    </div>
+    <header class="site">
+        <div class="wrap navrow">
+            <a class="brand" href="index.html">
+                <img src="images/logo.jpg" alt="Megep Trading logo">
+                <div>
+                    <b>MEGEP</b>
+                    <small>Company Ltd · Trading &amp; Prints</small>
+                </div>
+            </a>
+            <button class="menu-btn" type="button" aria-label="Open menu">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li><li><a href="about.html" class="active">About Us</a></li><li><a href="products.html">Our Products</a></li><li><a href="contact.html">Contact Us</a></li><li><a href="sponsor.html">Our Sponsor</a></li><li><a href="platforms.html">Our Platforms</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="wrap contact-grid">
+            <div>
+                <p class="eyebrow">About Us</p>
+                <h1 class="section-title">Your Travel Companion!</h1>
+                <p>Looking for strong, durable, and stylish travelling boxes? If yes! Then, our premium-quality luggage is designed to keep your belongings safe while giving you a classy travel experience.</p>
+                <p style="margin-top:14px">We are a dedicated, consistent and reliable company that deal in the purchasing of boxes and customization of gift items, souvenirs, shirts, etc.</p>
+                <p style="margin-top:14px">Megep Company Ltd has two arms:</p>
+                <ul style="margin:12px 0 12px 18px">
+                    <li><strong>Megep Trading</strong> — traveling boxes and luggage imported from China and sold locally.</li>
+                    <li><strong>Megep Prints</strong> — customization of gift items, souvenirs, shirts and printed packaging.</li>
+                </ul>
+                <p>If you are interested in purchasing any of our products, you can talk to our agents through the contact provided on this website on how to place your order. Thank you for your patronage!</p>
+            </div>
+            <div class="flyer-frame">
+                <img src="images/flyer.jpg" alt="Megep Trading flyer">
+            </div>
+        </div>
+    </section>
+    <section style="padding-top:0">
+        <div class="wrap">
+            <h2 class="section-title">What Megep Trading offers</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Traveling boxes, not just bags</h3>
+                    <p>A traveling box is a hard-sided suitcase with a shell that helps clothes stay neater. Ours include wheels, telescopic handles and mixed sizes so you can travel light or pack for a longer stay.</p>
+                </article>
+                <article class="card">
+                    <h3>Who we serve</h3>
+                    <p>Students, families, traders, church and school groups, and anyone who needs a reliable box for road, air or interstate travel. We also help people buying gifts or souvenir sets through Megep Prints.</p>
+                </article>
+                <article class="card">
+                    <h3>Our promise</h3>
+                    <p>Dedicated, consistent and reliable service. Customer satisfaction is our priority. We do not list prices on the website so you can confirm the latest rate and the exact colour available before you pay.</p>
+                </article>
+            </div>
+            <article class="card" style="margin-top:18px">
+                <h3>Useful facts before you buy</h3>
+                <ul style="margin:10px 0 0 18px">
+                    <li>Choose a smaller box for weekend trips and a larger box or full set for long travel.</li>
+                    <li>Light colours look bright in photos; darker or printed colours hide scuffs better.</li>
+                    <li>A matching small box is useful for shoes, cosmetics or gifts so they do not crush clothes.</li>
+                    <li>Tell the agent your destination type (bus, car or flight) so they can recommend a practical size.</li>
+                    <li>Always confirm stock on 08028385955 or 08055554744 before traveling to pick up.</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="wrap footgrid">
+            <div>
+                <strong>Megep Company Ltd</strong>
+                <p>Megep Trading · Megep Prints<br>Your Travel Companion!</p>
+            </div>
+            <div>
+                <strong>Call</strong>
+                <p><a href="tel:08028385955">08028385955</a><br><a href="tel:08055554744">08055554744</a></p>
+            </div>
+            <div>
+                <strong>Email</strong>
+                <p><a href="mailto:2gep.bd@gmail.com">2gep.bd@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="wrap copy">Imported from China and sold by Megep Trading. Thank you for your patronage.</div>
+    </footer>
+
+
+    <button class="chat-toggle" id="chatToggle" type="button" aria-label="Open helper">AI</button>
+    <div class="chat" id="chatPanel">
+        <div class="chat-head">Megep Assistant · Gep<small>Helpful answers · prices only by phone</small></div>
+        <div class="chat-log" id="chatLog"></div>
+        <div class="quick">
+            <button type="button" data-ask="How do I choose a traveling box size?">Sizes</button>
+            <button type="button" data-ask="What colours do you have?">Colours</button>
+            <button type="button" data-ask="How do I place an order?">Order</button>
+            <button type="button" data-ask="How much do they cost?">Prices</button>
+        </div>
+        <form class="chat-form" id="chatForm">
+            <input id="chatInput" type="text" placeholder="Ask about traveling boxes..." autocomplete="off">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
